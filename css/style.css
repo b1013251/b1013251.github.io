@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+    padding: 1em;
+    background: url('../images/bg2.gif');
+}
+
+#content {
+    background: white;
+    margin: 1em;
+    padding: 2em;
+}
+
+ul {
+    list-style: none;
+    padding-top: 1em;
+}
+h1 {
+    padding-bottom: 0.5em;
+}
+h2 {
+    padding-top: 1em;
+}
+hr {
+    margin: 2em 0;
+    border: 0 none;
+    background: url('../images/line.png');
+    height: 9px;
+}
