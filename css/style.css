@@ -22,15 +22,31 @@ ul {
 }
 h1 {
     padding-bottom: 0.5em;
+    text-align: center;
 }
+
 h2 {
     padding-top: 1em;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.3em;
+    border-bottom : 1px solid black;
 }
-hr {
-    margin: 2em 0;
-    border: 0 none;
-    background: url('../images/line.png');
-    height: 9px;
+
+a {
+    color: #833;
+}
+
+a:hover {
+    color: #e88;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1.5em;
+}
+
+li {
+    line-height: 2.0em;
 }
 
 @media (max-width: 800px) {
